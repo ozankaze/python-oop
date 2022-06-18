@@ -26,3 +26,27 @@ valorant3 = Hero("Jett", 8000, "Duelist") #object
 print(valorant2.nameInput())
 print(valorant3.nameDemage(3000))
 print(valorant1.nameRole())
+
+
+class MobileLegend(): #template
+    # nameHero = "Miya"
+    nameHero = " "
+    powerHero = " "
+
+    def __init__(self, nameHero, powerHero):
+        self.nameHero = nameHero
+        self.powerHero = powerHero
+
+    def getName(self):
+        return self.nameHero
+
+    def getPower(self):
+        return self.powerHero
+
+# di luar class
+
+mobillegend1 = MobileLegend("Miya", "300")
+mobillegend2 = MobileLegend("Nana", "600")
+
+print(mobillegend1.getName() + " Punya Power " + mobillegend1.getPower())
+print(mobillegend2.getName() + " Punya Power " + mobillegend2.getPower())
