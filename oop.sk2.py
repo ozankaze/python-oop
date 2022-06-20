@@ -1,3 +1,6 @@
+# Kelas Dan Object
+
+
 class MobileLegend():
     nameHero = "Lala"
     power = "400"
